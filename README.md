@@ -24,11 +24,11 @@ Aulas de Javas
 Crie uma pasta para o projeto, exemplo: C:\JavaProjetos\PrimeiroApp\
 Abra essa pasta no VS Code (Arquivo > Abrir Pasta).\
 Dentro dela, crie um arquivo Main.java com este conteúdo:\
-    public class Main {
-        public static void main(String[] args) {
-            System.out.println("Olá, Mundo!");
-        }
-    }
+____public class Main {\
+________public static void main(String[] args) {\
+____________System.out.println("Olá, Mundo!");\
+________}\
+____}\
 Rodar o programa no VS Code\
 Salve o arquivo.\
 No topo do VS Code deve aparecer um botão Run | Debug ▶️ (ou Executar).\
