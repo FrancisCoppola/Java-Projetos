@@ -46,26 +46,11 @@
                     <span><span class="hljs-keyword">public</span></span><span> </span><span><span class="hljs-keyword">static</span></span><span> </span><span><span class="hljs-keyword">void</span></span><span> </span>
     <span><span class="hljs-title function_">main</span></span><span><span class="hljs-params">(String[] args)</span></span><span> {
         </span><span><span class="hljs-comment">// Variáveis para armazenar os dados de um cliente</span></span><span>
-        </span><span><span class="hljs-type">String</span></span><span> </span>
-        <span><span class="hljs-variable">nome</span></span><span> </span>
-        <span><span class="hljs-operator">=</span></span><span> </span>
-        <span><span class="hljs-string">"Francis Chileno"</span></span><span>;
-        </span><span><span class="hljs-type">int</span></span><span> </span>
-        <span><span class="hljs-variable">idade</span></span><span> </span>
-        <span><span class="hljs-operator">=</span></span><span> </span>
-        <span><span class="hljs-number">32</span></span><span>;
-        </span><span><span class="hljs-type">String</span></span><span> </span>
-        <span><span class="hljs-variable">cpf</span></span><span> </span>
-        <span><span class="hljs-operator">=</span></span><span> </span>
-        <span><span class="hljs-string">"123.456.789-00"</span></span><span>;
-        </span><span><span class="hljs-type">double</span></span><span> </span>
-        <span><span class="hljs-variable">salario</span></span><span> </span>
-        <span><span class="hljs-operator">=</span></span><span> </span>
-        <span><span class="hljs-number">4500.75</span></span><span>;
-        </span><span><span class="hljs-type">boolean</span></span><span> </span>
-        <span><span class="hljs-variable">ativo</span></span><span> </span>
-        <span><span class="hljs-operator">=</span></span><span> </span>
-        <span><span class="hljs-literal">true</span></span><span>;
+        </span><span><span class="hljs-type">String</span></span><span> </span><span><span class="hljs-variable">nome</span></span><span> </span><span><span class="hljs-operator">=</span></span><span> </span><span><span class="hljs-string">"Francis Chileno"</span></span><span>;
+        </span><span><span class="hljs-type">int</span></span><span> </span><span><span class="hljs-variable">idade</span></span><span> </span><span><span class="hljs-operator">=</span></span><span> </span><span><span class="hljs-number">32</span></span><span>;
+        </span><span><span class="hljs-type">String</span></span><span> </span><span><span class="hljs-variable">cpf</span></span><span> </span><span><span class="hljs-operator">=</span></span><span> </span><span><span class="hljs-string">"123.456.789-00"</span></span><span>;
+        </span><span><span class="hljs-type">double</span></span><span> </span><span><span class="hljs-variable">salario</span></span><span> </span><span><span class="hljs-operator">=</span></span><span> </span><span><span class="hljs-number">3000.00</span></span><span>;
+        </span><span><span class="hljs-type">boolean</span></span><span> </span><span><span class="hljs-variable">ativo</span></span><span> </span><span><span class="hljs-operator">=</span></span><span> </span><span><span class="hljs-literal">true</span></span><span>;
         </span><span><span class="hljs-comment">// Exibindo os dados</span></span><span>
         <span>System.out.println(</span><span><span class="hljs-string">"===== Cadastro de Cliente ====="</span></span><span>);
         <span>System.out.println(</span><span><span class="hljs-string">"Nome: "</span></span><span> + nome);
